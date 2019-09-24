@@ -1,4 +1,4 @@
-# emotet_ioc_extractor
+# Emotet_ioc_extractor
 
 A script to extract c2 and rsa key from dump files via Winappdbg.
 
@@ -16,6 +16,7 @@ https://github.com/MarioVilas/winappdbg
 https://github.com/seth1002/emotet_ioc_extractor/tree/master/samples
 
 # Sample
+```
 python ./extract_c2.py 986a219e61c646ba1c40344adab6c65b95bb0258
 
 ('start', ['C:\\Users\\seth1002\\Desktop\\ddd.exe'])
@@ -79,3 +80,4 @@ rsa key:
 c 26 40 a9 37 6f 67 d4 87 09 c7 5e 3a 12 a5 1e e9 2d a0 e8 ee 91 1c 88 90 79 cb
 a8 63 6c fc ab 49 f2 f7 17 1b bb e0 cd 92 01 2d 00 ae 3d ee 01 02 03 01 00 01
 kernel32!CreateProcessW called from 00531574 by thread 468 at process 2212
+```
