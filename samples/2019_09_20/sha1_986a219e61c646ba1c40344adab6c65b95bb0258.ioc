@@ -1,3 +1,5 @@
+# sample srouce https://paste.cryptolaemus.com/emotet/2019/09/20/emotet-malware-IoCs_09-20-19.html
+
 python extract_c2.py 986a219e61c646ba1c40344adab6c65b95bb0258
 
 ('start', ['C:\\Users\\seth1002\\Desktop\\ddd.exe'])
