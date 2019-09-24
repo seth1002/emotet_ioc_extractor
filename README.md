@@ -1,4 +1,4 @@
-# emotet_ioc_extractor
+# Emotet_ioc_extractor
 
 A script to extract c2 and rsa key from dump files via Winappdbg.
 
