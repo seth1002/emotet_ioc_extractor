@@ -13,7 +13,7 @@ winappdbg -
 https://github.com/MarioVilas/winappdbg
 
 # IOC
-
+https://github.com/seth1002/emotet_ioc_extractor/tree/master/samples
 
 # Sample
 python ./extract_c2.py 986a219e61c646ba1c40344adab6c65b95bb0258
