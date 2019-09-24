@@ -1,22 +1,4 @@
-# emotet_ioc_extractor
-
-A script to extract c2 and rsa key from dump files via Winappdbg.
-
-# Requirements
-A test machine -
-VMware install Win7(x86)
-
-pefile -
-https://github.com/erocarrera/pefile
-
-winappdbg -
-https://github.com/MarioVilas/winappdbg
-
-# IOC
-
-
-# Sample
-python ./extract_c2.py 986a219e61c646ba1c40344adab6c65b95bb0258
+python extract_c2.py 986a219e61c646ba1c40344adab6c65b95bb0258
 
 ('start', ['C:\\Users\\seth1002\\Desktop\\ddd.exe'])
 hit break
